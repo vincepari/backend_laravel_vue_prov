@@ -1,0 +1,30 @@
+
+POST http://127.0.0.1:8000/api/v1/auth/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email": "ana@mail.com",
+    "password": "ana54321"
+}
+
+###  Registro de usuario anonimos
+
+POST http://127.0.0.1:8000/api/v1/auth/register
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "ana",
+    "email": "ana@mail.com",
+    "password" : "ana54321",
+    "c_password" : "ana54321"
+}
+### Perfil
+GET http://127.0.0.1:8000/api/v1/auth/profile
+Accept: application/json
+Authorization: Bearer 14|YhKpqwOjLRzevYJ0HpaZ2HfD7ulquuhKcA5cOXe6aea240a7
+### logout
+POST  http://127.0.0.1:8000/api/v1/auth/logout
+Accept: application/json
+Authorization: Bearer 11|KhJlNpPlUEgzVybVaWl0MCT3kP7L1snRniuRu76G76babb13
