@@ -4,6 +4,11 @@
 ## Crear una cuenta en GITHUB  (Bitbucket, GitLab)
 - https://github.com/
 
+```
+git config --global user.name "VINCE"
+git config --global user.email "vincepari23@gmail.com"
+```
+
 -----
 ## Comandos iniciales
 ### inicializar GIT o clonar un repositorio
@@ -27,6 +32,6 @@ git clone direccion_repositorio
 
 ```
 git add .
-git commint -m "Autenticacion con Laravel Api Rest"
+git commit -m "Autenticacion con Laravel Api Rest"
 git push origin  master
 ```
