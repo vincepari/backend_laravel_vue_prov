@@ -59,8 +59,9 @@ class AuthController extends Controller
     }
 
     public function funLogout(Request $request){
-        $request->user()->delete();
+       // $request->user()->delete(); (ojo para elimnar en ña basede datos de usuarios )
 
         return response()->json(["mensaje" => "Logout"], 200);
+
     }
 }

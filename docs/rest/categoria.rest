@@ -1,0 +1,32 @@
+GET http://127.0.0.1:8000/api/categoria
+Accept: application/json
+Content-Type: application/json
+
+
+### Create categoria
+POST  http://127.0.0.1:8000/api/categoria
+Accept: application/json
+Content-Type: application/json
+
+{
+    "nombre" : "teclado",
+    "detalle" : "logotech"
+
+
+}
+
+### mostrar
+GET   http://127.0.0.1:8000/api/categoria/3
+
+### modificar
+PUT   http://127.0.0.1:8000/api/categoria/3
+Accept: application/json
+Content-Type: application/json
+
+{
+    "nombre" : "zapatillas",
+    "detalle": "pumaS"
+}
+
+### eleiminar
+DELETE    http://127.0.0.1:8000/api/categoria

@@ -14,8 +14,8 @@ class PersonaSeeder extends Seeder
     public function run(): void
     {
         $per1 = new Persona();
-        $per1->nombre_completo ="VINCS";
-        $per1->apellidos = "PARI";
+        $per1->nombre_completo ="VINCe";
+        $per1->apellidos = "PAR";
         $per1->fecha_nacimiento = "1991-12-12";
         $per1->user_id = 1;
         $per1->save();

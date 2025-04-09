@@ -1,0 +1,31 @@
+GET http://127.0.0.1:8000/api/role
+Accept: application/json
+Content-Type: application/json
+
+
+### Create role
+POST  http://127.0.0.1:8000/api/role
+Accept: application/json
+Content-Type: application/json
+
+{
+    "nombre" : "vincs",
+    "detalle" : "Perito"
+
+}
+
+### mostrar
+GET   http://127.0.0.1:8000/api/role/8
+
+### modificar
+PUT   http://127.0.0.1:8000/api/role/8
+Accept: application/json
+Content-Type: application/json
+
+{
+    "nombre" : "user-anonimo",
+    "detalle": "usuario anonimo"
+}
+
+### eleiminar
+DELETE    http://127.0.0.1:8000/api/role/7
